@@ -115,7 +115,6 @@ public class FFNN {
     public init(inputs: Int, hidden: Int, outputs: Int, learningRate: Float = 0.7, momentum: Float = 0.4, weights: [Float]? = nil, activationFunction: ActivationFunction = .Default, errorFunction: ErrorFunction = .Default(average: false)) {
         if inputs < 1 || hidden < 1 || outputs < 1 || learningRate <= 0 {
             print("Sorry but you gotta input some valid arguments so that you can get a working FFNN. Inputs, hidden, outpus and learningRate should all be above 0.")
-            return
         }
         
         self.numberOfHiddenWeights = (hidden * (inputs + 1))
@@ -146,7 +145,7 @@ public class FFNN {
         self.errorFunction = errorFunction
         for weightIndex in 0..<self.numberOfOutputWeights {
             self.outputErrorIndices.append(weightIndex / self.numberOfHiddenNodes)
-            self.inputIndices.append(weightIndex % self.numberOfHiddenNodes)
+            self.hiddenOutputIndices.append(weightIndex % self.numberOfHiddenNodes)
         }
         
         for weightIndex in 0..<self.numberOfHiddenWeights {
