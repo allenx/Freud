@@ -363,7 +363,7 @@ public extension FFNN {
         let data: Data = NSKeyedArchiver.archivedData(withRootObject: storage)
         
         do {
-            try? data.write(to: url, options: .atomic)
+            try data.write(to: url, options: .atomic)
         } catch {
             print("Writing Failed")
         }
@@ -524,7 +524,8 @@ public extension FFNN {
     fileprivate func randomWeight(numberOfInputNodes: Int) -> Float {
         let range = 1 / sqrt(Float(numberOfInputNodes))
         let rangeInt = UInt32(2_000_000 * range)
-        let randomFloat = Float(arc4random_uniform(rangeInt)) - Float(rangeInt / 2)
+        //let randomFloat = Float(arc4random_uniform(rangeInt)) - Float(rangeInt / 2)
+        let randomFloat = Float(Random.random(number: rangeInt)) - Float(rangeInt / 2)
         return randomFloat / 1_000_000
     }
     

@@ -18,6 +18,10 @@ public struct Vector {
         self.flat = [Double](repeating: 0.0, count: size)
     }
     
+    public init(flatValues: [Double]) {
+        self.flat = flatValues
+    }
+    
     
     //get vector's size
     public var size: Int {
