@@ -11,17 +11,23 @@
 		B10D18621DB8EA1C00F0F9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10D18601DB8EA1C00F0F9E4 /* Main.storyboard */; };
 		B10D18641DB8EA1C00F0F9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10D18631DB8EA1C00F0F9E4 /* Assets.xcassets */; };
 		B10D18671DB8EA1C00F0F9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10D18651DB8EA1C00F0F9E4 /* LaunchScreen.storyboard */; };
-		B17BA56B1DFEC7C500549F7F /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5651DFEC7C500549F7F /* FFNN.swift */; };
+		B153990E1E02F305008DCA65 /* Gene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153990B1E02F305008DCA65 /* Gene.swift */; };
+		B153990F1E02F305008DCA65 /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153990C1E02F305008DCA65 /* Genome.swift */; };
+		B15399101E02F305008DCA65 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153990D1E02F305008DCA65 /* Population.swift */; };
+		B15399151E02F325008DCA65 /* ActivationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399121E02F325008DCA65 /* ActivationFunctions.swift */; };
+		B15399161E02F325008DCA65 /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399131E02F325008DCA65 /* FFNN.swift */; };
+		B15399171E02F325008DCA65 /* RNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399141E02F325008DCA65 /* RNN.swift */; };
+		B15399191E031505008DCA65 /* GeneRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399181E031505008DCA65 /* GeneRD.swift */; };
+		B153991B1E031517008DCA65 /* Chromosome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991A1E031517008DCA65 /* Chromosome.swift */; };
+		B153991D1E03152A008DCA65 /* PopulationRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991C1E03152A008DCA65 /* PopulationRD.swift */; };
+		B153991F1E03178E008DCA65 /* Crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991E1E03178E008DCA65 /* Crossover.swift */; };
 		B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5661DFEC7C500549F7F /* Matrix.swift */; };
 		B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5671DFEC7C500549F7F /* Operators.swift */; };
 		B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5681DFEC7C500549F7F /* Random.swift */; };
-		B17BA56F1DFEC7C500549F7F /* RNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5691DFEC7C500549F7F /* RNN.swift */; };
 		B17BA5701DFEC7C500549F7F /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA56A1DFEC7C500549F7F /* Vector.swift */; };
 		B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5721DFEC7CD00549F7F /* GeneticAlgorithmView.swift */; };
 		B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */; };
 		B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5761DFEC7D500549F7F /* ViewController.swift */; };
-		B17BA57A1DFED9AD00549F7F /* ActivationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5791DFED9AD00549F7F /* ActivationFunctions.swift */; };
-		B17BA57C1DFEE05700549F7F /* GA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA57B1DFEE05700549F7F /* GA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +38,23 @@
 		B10D18661DB8EA1C00F0F9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B10D18681DB8EA1C00F0F9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15399041E02AA2F008DCA65 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		B17BA5651DFEC7C500549F7F /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
+		B153990B1E02F305008DCA65 /* Gene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gene.swift; sourceTree = "<group>"; };
+		B153990C1E02F305008DCA65 /* Genome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genome.swift; sourceTree = "<group>"; };
+		B153990D1E02F305008DCA65 /* Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		B15399121E02F325008DCA65 /* ActivationFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationFunctions.swift; sourceTree = "<group>"; };
+		B15399131E02F325008DCA65 /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
+		B15399141E02F325008DCA65 /* RNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNN.swift; sourceTree = "<group>"; };
+		B15399181E031505008DCA65 /* GeneRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneRD.swift; sourceTree = "<group>"; };
+		B153991A1E031517008DCA65 /* Chromosome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chromosome.swift; sourceTree = "<group>"; };
+		B153991C1E03152A008DCA65 /* PopulationRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationRD.swift; sourceTree = "<group>"; };
+		B153991E1E03178E008DCA65 /* Crossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crossover.swift; sourceTree = "<group>"; };
 		B17BA5661DFEC7C500549F7F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		B17BA5671DFEC7C500549F7F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B17BA5681DFEC7C500549F7F /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		B17BA5691DFEC7C500549F7F /* RNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNN.swift; sourceTree = "<group>"; };
 		B17BA56A1DFEC7C500549F7F /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		B17BA5721DFEC7CD00549F7F /* GeneticAlgorithmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithmView.swift; sourceTree = "<group>"; };
 		B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithmViewController.swift; sourceTree = "<group>"; };
 		B17BA5761DFEC7D500549F7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B17BA5791DFED9AD00549F7F /* ActivationFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationFunctions.swift; sourceTree = "<group>"; };
-		B17BA57B1DFEE05700549F7F /* GA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +100,39 @@
 			path = Freud;
 			sourceTree = "<group>";
 		};
+		B153990A1E02F305008DCA65 /* Genetic Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				B153990B1E02F305008DCA65 /* Gene.swift */,
+				B15399181E031505008DCA65 /* GeneRD.swift */,
+				B153991A1E031517008DCA65 /* Chromosome.swift */,
+				B153991C1E03152A008DCA65 /* PopulationRD.swift */,
+				B153991E1E03178E008DCA65 /* Crossover.swift */,
+				B153990C1E02F305008DCA65 /* Genome.swift */,
+				B153990D1E02F305008DCA65 /* Population.swift */,
+			);
+			path = "Genetic Algorithm";
+			sourceTree = "<group>";
+		};
+		B15399111E02F325008DCA65 /* Neural Networks */ = {
+			isa = PBXGroup;
+			children = (
+				B15399121E02F325008DCA65 /* ActivationFunctions.swift */,
+				B15399131E02F325008DCA65 /* FFNN.swift */,
+				B15399141E02F325008DCA65 /* RNN.swift */,
+			);
+			path = "Neural Networks";
+			sourceTree = "<group>";
+		};
 		B17BA5641DFEC7C500549F7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B17BA5651DFEC7C500549F7F /* FFNN.swift */,
-				B17BA5791DFED9AD00549F7F /* ActivationFunctions.swift */,
 				B17BA5661DFEC7C500549F7F /* Matrix.swift */,
 				B17BA5671DFEC7C500549F7F /* Operators.swift */,
 				B17BA5681DFEC7C500549F7F /* Random.swift */,
-				B17BA5691DFEC7C500549F7F /* RNN.swift */,
 				B17BA56A1DFEC7C500549F7F /* Vector.swift */,
-				B17BA57B1DFEE05700549F7F /* GA.swift */,
+				B15399111E02F325008DCA65 /* Neural Networks */,
+				B153990A1E02F305008DCA65 /* Genetic Algorithm */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,16 +229,22 @@
 			files = (
 				B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */,
 				B10D185D1DB8EA1C00F0F9E4 /* AppDelegate.swift in Sources */,
-				B17BA57A1DFED9AD00549F7F /* ActivationFunctions.swift in Sources */,
+				B15399161E02F325008DCA65 /* FFNN.swift in Sources */,
 				B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */,
-				B17BA56F1DFEC7C500549F7F /* RNN.swift in Sources */,
+				B15399151E02F325008DCA65 /* ActivationFunctions.swift in Sources */,
+				B153990E1E02F305008DCA65 /* Gene.swift in Sources */,
+				B15399171E02F325008DCA65 /* RNN.swift in Sources */,
+				B153991B1E031517008DCA65 /* Chromosome.swift in Sources */,
+				B153991F1E03178E008DCA65 /* Crossover.swift in Sources */,
 				B17BA5701DFEC7C500549F7F /* Vector.swift in Sources */,
 				B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */,
-				B17BA56B1DFEC7C500549F7F /* FFNN.swift in Sources */,
+				B153991D1E03152A008DCA65 /* PopulationRD.swift in Sources */,
+				B15399191E031505008DCA65 /* GeneRD.swift in Sources */,
+				B153990F1E02F305008DCA65 /* Genome.swift in Sources */,
+				B15399101E02F305008DCA65 /* Population.swift in Sources */,
 				B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */,
 				B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */,
 				B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */,
-				B17BA57C1DFEE05700549F7F /* GA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

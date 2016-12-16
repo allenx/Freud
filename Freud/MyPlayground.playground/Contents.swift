@@ -54,6 +54,11 @@ plotSineWave()
 
 
 
+let probability = 0.01
+let threshold = UInt32(probability * Double(UInt32.max))
+
+let random = arc4random()
+let a = random & 0x0000001F
 
 
 
