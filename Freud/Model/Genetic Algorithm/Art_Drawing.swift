@@ -23,6 +23,12 @@ open class Drawing {
         }
     }
     
+    var numberOfPolygons: Int {
+        get {
+            return polygons.count
+        }
+    }
+    
     func setDirty() {
         isDirty = true;
     }
@@ -61,7 +67,7 @@ open class Drawing {
     
     
     func addPolygon() {
-        if polygons.count < Factors.ActivePolygonsMax {
+        if numberOfPolygons < Factors.ActivePolygonsMax {
             let poly = PolygonGene()
             let index = Int(Random.bounded(min: 0, max: Double(polygons.count)))
             polygons.insert(poly, at: Int(index))
@@ -70,7 +76,7 @@ open class Drawing {
     }
     
     func removePolygon() {
-        if polygons.count > Factors.ActivePolygonsMin {
+        if numberOfPolygons > Factors.ActivePolygonsMin {
             let index = Int(Random.bounded(min: 0, max: Double(polygons.count)))
             polygons.remove(at: index)
             setDirty()

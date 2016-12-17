@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA79F1FB90408C5886FB054 /* Pods_Freud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1505B5AFC6D296D887218166 /* Pods_Freud.framework */; };
 		B10D185D1DB8EA1C00F0F9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10D185C1DB8EA1C00F0F9E4 /* AppDelegate.swift */; };
 		B10D18621DB8EA1C00F0F9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10D18601DB8EA1C00F0F9E4 /* Main.storyboard */; };
 		B10D18641DB8EA1C00F0F9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10D18631DB8EA1C00F0F9E4 /* Assets.xcassets */; };
@@ -35,9 +36,15 @@
 		B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */; };
 		B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5761DFEC7D500549F7F /* ViewController.swift */; };
 		B1D909441E055A2A00F6E541 /* ThreadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909431E055A2A00F6E541 /* ThreadManager.swift */; };
+		B1D909461E055F5100F6E541 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909451E055F5100F6E541 /* ClassExtensions.swift */; };
+		B1D9094A1E05698500F6E541 /* BarrageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909481E05698500F6E541 /* BarrageView.swift */; };
+		B1D9094B1E05698500F6E541 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909491E05698500F6E541 /* SocketManager.swift */; };
+		B1D9094E1E05961D00F6E541 /* FitnessCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1505B5AFC6D296D887218166 /* Pods_Freud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5550C1E4890B8ACF1D424A /* Pods-Freud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freud.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freud/Pods-Freud.release.xcconfig"; sourceTree = "<group>"; };
 		B10D18591DB8EA1C00F0F9E4 /* Freud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10D185C1DB8EA1C00F0F9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10D18611DB8EA1C00F0F9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +76,11 @@
 		B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithmViewController.swift; sourceTree = "<group>"; };
 		B17BA5761DFEC7D500549F7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1D909431E055A2A00F6E541 /* ThreadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadManager.swift; sourceTree = "<group>"; };
+		B1D909451E055F5100F6E541 /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		B1D909481E05698500F6E541 /* BarrageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageView.swift; sourceTree = "<group>"; };
+		B1D909491E05698500F6E541 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCalculator.swift; sourceTree = "<group>"; };
+		B4F9CF3834915DB564490CC1 /* Pods-Freud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freud/Pods-Freud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +88,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA79F1FB90408C5886FB054 /* Pods_Freud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81B4A91AA6AEF8C1142A0FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1505B5AFC6D296D887218166 /* Pods_Freud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B10D18501DB8EA1C00F0F9E4 = {
 			isa = PBXGroup;
 			children = (
 				B10D185B1DB8EA1C00F0F9E4 /* Freud */,
+				B1D909471E05698500F6E541 /* Barage */,
 				B10D185A1DB8EA1C00F0F9E4 /* Products */,
+				D9D4FAB6F2E4A826E20CB54E /* Pods */,
+				81B4A91AA6AEF8C1142A0FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,7 @@
 			children = (
 				B15399041E02AA2F008DCA65 /* MyPlayground.playground */,
 				B10D185C1DB8EA1C00F0F9E4 /* AppDelegate.swift */,
+				B1D909451E055F5100F6E541 /* ClassExtensions.swift */,
 				B17BA5641DFEC7C500549F7F /* Model */,
 				B17BA5711DFEC7CD00549F7F /* View */,
 				B17BA5741DFEC7D500549F7F /* Controller */,
@@ -127,6 +152,7 @@
 				B15399331E0547FC008DCA65 /* Factors.swift */,
 				B153992B1E053A3D008DCA65 /* Art_PointGene.swift */,
 				B153992F1E053EBC008DCA65 /* DiceRoller.swift */,
+				B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */,
 			);
 			path = "Genetic Algorithm";
 			sourceTree = "<group>";
@@ -183,6 +209,25 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		B1D909471E05698500F6E541 /* Barage */ = {
+			isa = PBXGroup;
+			children = (
+				B1D909481E05698500F6E541 /* BarrageView.swift */,
+				B1D909491E05698500F6E541 /* SocketManager.swift */,
+			);
+			name = Barage;
+			path = Freud/Barage;
+			sourceTree = "<group>";
+		};
+		D9D4FAB6F2E4A826E20CB54E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9CF3834915DB564490CC1 /* Pods-Freud.debug.xcconfig */,
+				3A5550C1E4890B8ACF1D424A /* Pods-Freud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10D186B1DB8EA1C00F0F9E4 /* Build configuration list for PBXNativeTarget "Freud" */;
 			buildPhases = (
+				F966E7DC289F8EDB35F59BFD /* [CP] Check Pods Manifest.lock */,
 				B10D18551DB8EA1C00F0F9E4 /* Sources */,
 				B10D18561DB8EA1C00F0F9E4 /* Frameworks */,
 				B10D18571DB8EA1C00F0F9E4 /* Resources */,
+				39E3A3402FD1A004E32C68D4 /* [CP] Embed Pods Frameworks */,
+				2CAE0F9887740A26742B415A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +299,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CAE0F9887740A26742B415A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freud/Pods-Freud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39E3A3402FD1A004E32C68D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freud/Pods-Freud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F966E7DC289F8EDB35F59BFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B10D18551DB8EA1C00F0F9E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D9094A1E05698500F6E541 /* BarrageView.swift in Sources */,
 				B15399261E03D2AD008DCA65 /* Crossover.swift in Sources */,
+				B1D9094B1E05698500F6E541 /* SocketManager.swift in Sources */,
 				B153992C1E053A3D008DCA65 /* Art_PointGene.swift in Sources */,
 				B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */,
 				B15399271E03D2AD008DCA65 /* GeneRD.swift in Sources */,
@@ -272,12 +370,14 @@
 				B15399171E02F325008DCA65 /* RNN.swift in Sources */,
 				B15399361E054C52008DCA65 /* Art_Drawing.swift in Sources */,
 				B15399321E05422F008DCA65 /* Art_PolygonGene.swift in Sources */,
+				B1D9094E1E05961D00F6E541 /* FitnessCalculator.swift in Sources */,
 				B17BA5701DFEC7C500549F7F /* Vector.swift in Sources */,
 				B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */,
 				B153990F1E02F305008DCA65 /* Genome.swift in Sources */,
 				B15399101E02F305008DCA65 /* Population.swift in Sources */,
 				B153992A1E0533C9008DCA65 /* Art_ColourGene.swift in Sources */,
 				B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */,
+				B1D909461E055F5100F6E541 /* ClassExtensions.swift in Sources */,
 				B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */,
 				B1D909441E055A2A00F6E541 /* ThreadManager.swift in Sources */,
 				B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */,
@@ -403,6 +503,7 @@
 		};
 		B10D186C1DB8EA1C00F0F9E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F9CF3834915DB564490CC1 /* Pods-Freud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N777F9PD46;
@@ -416,6 +517,7 @@
 		};
 		B10D186D1DB8EA1C00F0F9E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5550C1E4890B8ACF1D424A /* Pods-Freud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N777F9PD46;

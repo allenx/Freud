@@ -7,13 +7,43 @@
 //
 
 import UIKit
+import SnapKit
+import GLKit
 
 class ViewController: UIViewController {
+    
+    var errorLevel = Double.greatestFiniteMagnitude
+    var currentDrawing = Drawing()
+    var generation = 0
+    var GAView: GeneticAlgorithmView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        sineWave(errorThreshold: 2.0)
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //SocketManager.shared.initHandler()
+
+        var error: Int = 0
+        let imageMona = #imageLiteral(resourceName: "MonaLisa")
+        for i in 0..<200 {
+            for j in 0..<200 {
+                let foo1 = imageMona.rgbUInt8(atPos: CGPoint(x: i, y: j))
+                let foo = PixelData(a: foo1.alpha, r: foo1.red, g: foo1.green, b: foo1.blue)
+                FitnessCalculator.sourcePixelData.append(foo)
+            }
+        }
+        
+
+
+//        imageView.frame = CGRect(x: 20, y: 20, width: 200, height: 200)
+//        self.view.addSubview(imageView)
+        
+        GAView = GeneticAlgorithmView(currentDrawing: currentDrawing)
+        self.view.addSubview(GAView)
+        
+        while true {
+            evolve()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +52,31 @@ class ViewController: UIViewController {
     }
 
 
+    func evolve() {
+
+        let fooDrawing = currentDrawing.clone()
+        fooDrawing.mutate()
+        if fooDrawing.isDirty {
+            GAView.currentDrawing = fooDrawing
+            generation += 1
+            let newErrorLevel = FitnessCalculator.calculateFitnessFor(currentDrawingView: GAView)
+            if newErrorLevel <= errorLevel {
+                ThreadManager.synchronize(currentDrawing) {
+                    currentDrawing = fooDrawing
+                }
+                errorLevel = newErrorLevel
+            }
+        }
+        print(generation)
+        
+    }
+    
+    
+    
 }
+
+
+
 
 func sineWave2(errorThreshold: Float) {
     print("FFNN: Sine Wave")

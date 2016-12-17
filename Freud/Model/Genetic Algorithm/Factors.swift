@@ -36,7 +36,7 @@ struct Factors {
     public static var ActivePointsPerPolygonMin = 3
     public static var ActivePolygonsMax = 255
     //f
-    public static var ActivePolygonsMin = 10
+    public static var ActivePolygonsMin = 50
     public static var ActiveRedMutationRate = 0.00066667
     public static var ActiveRedRangeMax = 255
     //f
