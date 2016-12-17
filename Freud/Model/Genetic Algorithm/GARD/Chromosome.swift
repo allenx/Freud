@@ -14,9 +14,9 @@ public struct Chromosome<T: Hashable> {
     
     var fitness: Double {
         get {
-            return self.fitnessFunction(self.genes.map({ (gene) -> T in
-                return gene.value
-            }))
+            return self.fitnessFunction(self.genes.map {
+                return $0.value
+            })
         }
     }
     

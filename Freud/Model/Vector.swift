@@ -10,7 +10,7 @@ import Accelerate
 
 public struct Vector {
     
-    //Flatten the vector into a 2-D array
+    //Flatten the vector into a 1-D array
     var flat: [Double]
     
     
@@ -67,7 +67,7 @@ public struct Vector {
     }
     
     
-    //Deeo Copy though struct is value-type so it's already deep copy
+    //Deep Copy though struct is value-type so it's already deep copy
     public func clone() -> Vector {
         return self
     }

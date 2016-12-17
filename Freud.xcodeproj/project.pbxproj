@@ -17,10 +17,16 @@
 		B15399151E02F325008DCA65 /* ActivationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399121E02F325008DCA65 /* ActivationFunctions.swift */; };
 		B15399161E02F325008DCA65 /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399131E02F325008DCA65 /* FFNN.swift */; };
 		B15399171E02F325008DCA65 /* RNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399141E02F325008DCA65 /* RNN.swift */; };
-		B15399191E031505008DCA65 /* GeneRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399181E031505008DCA65 /* GeneRD.swift */; };
-		B153991B1E031517008DCA65 /* Chromosome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991A1E031517008DCA65 /* Chromosome.swift */; };
-		B153991D1E03152A008DCA65 /* PopulationRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991C1E03152A008DCA65 /* PopulationRD.swift */; };
-		B153991F1E03178E008DCA65 /* Crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153991E1E03178E008DCA65 /* Crossover.swift */; };
+		B15399251E03D2AD008DCA65 /* Chromosome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399211E03D2AD008DCA65 /* Chromosome.swift */; };
+		B15399261E03D2AD008DCA65 /* Crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399221E03D2AD008DCA65 /* Crossover.swift */; };
+		B15399271E03D2AD008DCA65 /* GeneRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399231E03D2AD008DCA65 /* GeneRD.swift */; };
+		B15399281E03D2AD008DCA65 /* PopulationRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399241E03D2AD008DCA65 /* PopulationRD.swift */; };
+		B153992A1E0533C9008DCA65 /* Art_ColourGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399291E0533C9008DCA65 /* Art_ColourGene.swift */; };
+		B153992C1E053A3D008DCA65 /* Art_PointGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153992B1E053A3D008DCA65 /* Art_PointGene.swift */; };
+		B15399301E053EBC008DCA65 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153992F1E053EBC008DCA65 /* DiceRoller.swift */; };
+		B15399321E05422F008DCA65 /* Art_PolygonGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399311E05422F008DCA65 /* Art_PolygonGene.swift */; };
+		B15399341E0547FC008DCA65 /* Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399331E0547FC008DCA65 /* Factors.swift */; };
+		B15399361E054C52008DCA65 /* Art_Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399351E054C52008DCA65 /* Art_Drawing.swift */; };
 		B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5661DFEC7C500549F7F /* Matrix.swift */; };
 		B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5671DFEC7C500549F7F /* Operators.swift */; };
 		B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5681DFEC7C500549F7F /* Random.swift */; };
@@ -28,6 +34,7 @@
 		B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5721DFEC7CD00549F7F /* GeneticAlgorithmView.swift */; };
 		B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */; };
 		B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5761DFEC7D500549F7F /* ViewController.swift */; };
+		B1D909441E055A2A00F6E541 /* ThreadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909431E055A2A00F6E541 /* ThreadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +51,16 @@
 		B15399121E02F325008DCA65 /* ActivationFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationFunctions.swift; sourceTree = "<group>"; };
 		B15399131E02F325008DCA65 /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
 		B15399141E02F325008DCA65 /* RNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNN.swift; sourceTree = "<group>"; };
-		B15399181E031505008DCA65 /* GeneRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneRD.swift; sourceTree = "<group>"; };
-		B153991A1E031517008DCA65 /* Chromosome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chromosome.swift; sourceTree = "<group>"; };
-		B153991C1E03152A008DCA65 /* PopulationRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationRD.swift; sourceTree = "<group>"; };
-		B153991E1E03178E008DCA65 /* Crossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crossover.swift; sourceTree = "<group>"; };
+		B15399211E03D2AD008DCA65 /* Chromosome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chromosome.swift; sourceTree = "<group>"; };
+		B15399221E03D2AD008DCA65 /* Crossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crossover.swift; sourceTree = "<group>"; };
+		B15399231E03D2AD008DCA65 /* GeneRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneRD.swift; sourceTree = "<group>"; };
+		B15399241E03D2AD008DCA65 /* PopulationRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationRD.swift; sourceTree = "<group>"; };
+		B15399291E0533C9008DCA65 /* Art_ColourGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_ColourGene.swift; sourceTree = "<group>"; };
+		B153992B1E053A3D008DCA65 /* Art_PointGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PointGene.swift; sourceTree = "<group>"; };
+		B153992F1E053EBC008DCA65 /* DiceRoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		B15399311E05422F008DCA65 /* Art_PolygonGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PolygonGene.swift; sourceTree = "<group>"; };
+		B15399331E0547FC008DCA65 /* Factors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factors.swift; sourceTree = "<group>"; };
+		B15399351E054C52008DCA65 /* Art_Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_Drawing.swift; sourceTree = "<group>"; };
 		B17BA5661DFEC7C500549F7F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		B17BA5671DFEC7C500549F7F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B17BA5681DFEC7C500549F7F /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -55,6 +68,7 @@
 		B17BA5721DFEC7CD00549F7F /* GeneticAlgorithmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithmView.swift; sourceTree = "<group>"; };
 		B17BA5751DFEC7D500549F7F /* GeneticAlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithmViewController.swift; sourceTree = "<group>"; };
 		B17BA5761DFEC7D500549F7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1D909431E055A2A00F6E541 /* ThreadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +117,16 @@
 		B153990A1E02F305008DCA65 /* Genetic Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				B15399201E03D2AD008DCA65 /* GARD */,
 				B153990B1E02F305008DCA65 /* Gene.swift */,
-				B15399181E031505008DCA65 /* GeneRD.swift */,
-				B153991A1E031517008DCA65 /* Chromosome.swift */,
-				B153991C1E03152A008DCA65 /* PopulationRD.swift */,
-				B153991E1E03178E008DCA65 /* Crossover.swift */,
 				B153990C1E02F305008DCA65 /* Genome.swift */,
 				B153990D1E02F305008DCA65 /* Population.swift */,
+				B15399291E0533C9008DCA65 /* Art_ColourGene.swift */,
+				B15399311E05422F008DCA65 /* Art_PolygonGene.swift */,
+				B15399351E054C52008DCA65 /* Art_Drawing.swift */,
+				B15399331E0547FC008DCA65 /* Factors.swift */,
+				B153992B1E053A3D008DCA65 /* Art_PointGene.swift */,
+				B153992F1E053EBC008DCA65 /* DiceRoller.swift */,
 			);
 			path = "Genetic Algorithm";
 			sourceTree = "<group>";
@@ -124,10 +141,22 @@
 			path = "Neural Networks";
 			sourceTree = "<group>";
 		};
+		B15399201E03D2AD008DCA65 /* GARD */ = {
+			isa = PBXGroup;
+			children = (
+				B15399211E03D2AD008DCA65 /* Chromosome.swift */,
+				B15399221E03D2AD008DCA65 /* Crossover.swift */,
+				B15399231E03D2AD008DCA65 /* GeneRD.swift */,
+				B15399241E03D2AD008DCA65 /* PopulationRD.swift */,
+			);
+			path = GARD;
+			sourceTree = "<group>";
+		};
 		B17BA5641DFEC7C500549F7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				B17BA5661DFEC7C500549F7F /* Matrix.swift */,
+				B1D909431E055A2A00F6E541 /* ThreadManager.swift */,
 				B17BA5671DFEC7C500549F7F /* Operators.swift */,
 				B17BA5681DFEC7C500549F7F /* Random.swift */,
 				B17BA56A1DFEC7C500549F7F /* Vector.swift */,
@@ -227,23 +256,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15399261E03D2AD008DCA65 /* Crossover.swift in Sources */,
+				B153992C1E053A3D008DCA65 /* Art_PointGene.swift in Sources */,
 				B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */,
+				B15399271E03D2AD008DCA65 /* GeneRD.swift in Sources */,
+				B15399251E03D2AD008DCA65 /* Chromosome.swift in Sources */,
+				B15399281E03D2AD008DCA65 /* PopulationRD.swift in Sources */,
 				B10D185D1DB8EA1C00F0F9E4 /* AppDelegate.swift in Sources */,
 				B15399161E02F325008DCA65 /* FFNN.swift in Sources */,
+				B15399301E053EBC008DCA65 /* DiceRoller.swift in Sources */,
 				B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */,
 				B15399151E02F325008DCA65 /* ActivationFunctions.swift in Sources */,
+				B15399341E0547FC008DCA65 /* Factors.swift in Sources */,
 				B153990E1E02F305008DCA65 /* Gene.swift in Sources */,
 				B15399171E02F325008DCA65 /* RNN.swift in Sources */,
-				B153991B1E031517008DCA65 /* Chromosome.swift in Sources */,
-				B153991F1E03178E008DCA65 /* Crossover.swift in Sources */,
+				B15399361E054C52008DCA65 /* Art_Drawing.swift in Sources */,
+				B15399321E05422F008DCA65 /* Art_PolygonGene.swift in Sources */,
 				B17BA5701DFEC7C500549F7F /* Vector.swift in Sources */,
 				B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */,
-				B153991D1E03152A008DCA65 /* PopulationRD.swift in Sources */,
-				B15399191E031505008DCA65 /* GeneRD.swift in Sources */,
 				B153990F1E02F305008DCA65 /* Genome.swift in Sources */,
 				B15399101E02F305008DCA65 /* Population.swift in Sources */,
+				B153992A1E0533C9008DCA65 /* Art_ColourGene.swift in Sources */,
 				B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */,
 				B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */,
+				B1D909441E055A2A00F6E541 /* ThreadManager.swift in Sources */,
 				B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
