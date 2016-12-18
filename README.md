@@ -8,17 +8,17 @@ Freud is a Swift machine-learning library dedicated to [Sigmund Freud](https://e
 
 Freud is based on the project [Swift AI](https://github.com/collinhundley/Swift-AI/blob/master/README.md) by Collin Hundley. It includes a set of common tools used for machine learning and artificial intelligence research. These tools are designed to be flexible, powerful and suitable for a wide range of applications.
 
-- [x] [Feed-Forward Neural Network](https://github.com/collinhundley/Swift-AI/blob/master/Documentation/FFNN.md#multi-layer-feed-forward-neural-network)
+- [x] [Feed-Forward Neural Network](https://github.com/allenx/Freud/blob/master/Freud/Model/Neural%20Networks/FFNN.md)
       * 3-layer network with options for customization.
       * [Example projects](https://github.com/collinhundley/Swift-AI/tree/master/Examples#swift-ai-examples) for iOS and OS X.
 - [ ] Recurrent Neural Network
 - [ ] Convolutional Network
 - [ ] GPU-Accelerated Networks
-- [x] Genetic Algorithms
+- [x] [Genetic Algorithms](https://github.com/allenx/Freud/blob/master/Freud/Model/Genetic%20Algorithm/GA.md)
       * Generic Typed Genetic Algorithm (Undergoing)
       * Asexual & Sexual Production
       * [Example Project]() for iOS
-- [x] [Fast Matrix Library](https://github.com/collinhundley/Swift-AI/blob/master/Documentation/Matrix.md#matrix)
+- [x] [Fast Matrix Library]()
       * Matrix class supporting common operators
       * SIMD-accelerated operations
 - [ ] Fourier Transform Functions
@@ -118,5 +118,5 @@ You can call me Allen. I'm a university students from China and I love playing w
 
 [allenx@live.fr](mailto:allenx@live.fr)
 
-And my blog is [Re: time](allenxa.com)
+And my blog is [Re: time](http://www.allenxa.com)
 
