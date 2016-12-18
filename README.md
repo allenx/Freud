@@ -17,7 +17,7 @@ Freud is based on the project [Swift AI](https://github.com/collinhundley/Swift-
 - [x] [Genetic Algorithms](https://github.com/allenx/Freud/blob/master/Freud/Model/Genetic%20Algorithm/GA.md)
       * Generic Typed Genetic Algorithm (Undergoing)
       * Asexual & Sexual Production
-      * [Example Project]() for iOS
+      * [Example Project](https://github.com/allenx/Freud/blob/master/Freud/Model/Genetic%20Algorithm/Demo/GADemo.md) for iOS
 - [x] [Fast Matrix Library]()
       * Matrix class supporting common operators
       * SIMD-accelerated operations
