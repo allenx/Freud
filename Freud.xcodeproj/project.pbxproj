@@ -22,12 +22,13 @@
 		B15399261E03D2AD008DCA65 /* Crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399221E03D2AD008DCA65 /* Crossover.swift */; };
 		B15399271E03D2AD008DCA65 /* GeneRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399231E03D2AD008DCA65 /* GeneRD.swift */; };
 		B15399281E03D2AD008DCA65 /* PopulationRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399241E03D2AD008DCA65 /* PopulationRD.swift */; };
-		B153992A1E0533C9008DCA65 /* Art_ColourGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399291E0533C9008DCA65 /* Art_ColourGene.swift */; };
-		B153992C1E053A3D008DCA65 /* Art_PointGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153992B1E053A3D008DCA65 /* Art_PointGene.swift */; };
-		B15399301E053EBC008DCA65 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153992F1E053EBC008DCA65 /* DiceRoller.swift */; };
-		B15399321E05422F008DCA65 /* Art_PolygonGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399311E05422F008DCA65 /* Art_PolygonGene.swift */; };
-		B15399341E0547FC008DCA65 /* Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399331E0547FC008DCA65 /* Factors.swift */; };
-		B15399361E054C52008DCA65 /* Art_Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15399351E054C52008DCA65 /* Art_Drawing.swift */; };
+		B16B69E51E06B09800E3DF24 /* Art_ColourGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69DE1E06B09800E3DF24 /* Art_ColourGene.swift */; };
+		B16B69E61E06B09800E3DF24 /* Art_Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69DF1E06B09800E3DF24 /* Art_Drawing.swift */; };
+		B16B69E71E06B09800E3DF24 /* Art_PointGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69E01E06B09800E3DF24 /* Art_PointGene.swift */; };
+		B16B69E81E06B09800E3DF24 /* Art_PolygonGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69E11E06B09800E3DF24 /* Art_PolygonGene.swift */; };
+		B16B69E91E06B09800E3DF24 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69E21E06B09800E3DF24 /* DiceRoller.swift */; };
+		B16B69EA1E06B09800E3DF24 /* Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69E31E06B09800E3DF24 /* Factors.swift */; };
+		B16B69EB1E06B09800E3DF24 /* FitnessCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B69E41E06B09800E3DF24 /* FitnessCalculator.swift */; };
 		B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5661DFEC7C500549F7F /* Matrix.swift */; };
 		B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5671DFEC7C500549F7F /* Operators.swift */; };
 		B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BA5681DFEC7C500549F7F /* Random.swift */; };
@@ -39,7 +40,6 @@
 		B1D909461E055F5100F6E541 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909451E055F5100F6E541 /* ClassExtensions.swift */; };
 		B1D9094A1E05698500F6E541 /* BarrageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909481E05698500F6E541 /* BarrageView.swift */; };
 		B1D9094B1E05698500F6E541 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D909491E05698500F6E541 /* SocketManager.swift */; };
-		B1D9094E1E05961D00F6E541 /* FitnessCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,12 +62,13 @@
 		B15399221E03D2AD008DCA65 /* Crossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crossover.swift; sourceTree = "<group>"; };
 		B15399231E03D2AD008DCA65 /* GeneRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneRD.swift; sourceTree = "<group>"; };
 		B15399241E03D2AD008DCA65 /* PopulationRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationRD.swift; sourceTree = "<group>"; };
-		B15399291E0533C9008DCA65 /* Art_ColourGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_ColourGene.swift; sourceTree = "<group>"; };
-		B153992B1E053A3D008DCA65 /* Art_PointGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PointGene.swift; sourceTree = "<group>"; };
-		B153992F1E053EBC008DCA65 /* DiceRoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
-		B15399311E05422F008DCA65 /* Art_PolygonGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PolygonGene.swift; sourceTree = "<group>"; };
-		B15399331E0547FC008DCA65 /* Factors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factors.swift; sourceTree = "<group>"; };
-		B15399351E054C52008DCA65 /* Art_Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_Drawing.swift; sourceTree = "<group>"; };
+		B16B69DE1E06B09800E3DF24 /* Art_ColourGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_ColourGene.swift; sourceTree = "<group>"; };
+		B16B69DF1E06B09800E3DF24 /* Art_Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_Drawing.swift; sourceTree = "<group>"; };
+		B16B69E01E06B09800E3DF24 /* Art_PointGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PointGene.swift; sourceTree = "<group>"; };
+		B16B69E11E06B09800E3DF24 /* Art_PolygonGene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art_PolygonGene.swift; sourceTree = "<group>"; };
+		B16B69E21E06B09800E3DF24 /* DiceRoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		B16B69E31E06B09800E3DF24 /* Factors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factors.swift; sourceTree = "<group>"; };
+		B16B69E41E06B09800E3DF24 /* FitnessCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCalculator.swift; sourceTree = "<group>"; };
 		B17BA5661DFEC7C500549F7F /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		B17BA5671DFEC7C500549F7F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B17BA5681DFEC7C500549F7F /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -79,7 +80,6 @@
 		B1D909451E055F5100F6E541 /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
 		B1D909481E05698500F6E541 /* BarrageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageView.swift; sourceTree = "<group>"; };
 		B1D909491E05698500F6E541 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
-		B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCalculator.swift; sourceTree = "<group>"; };
 		B4F9CF3834915DB564490CC1 /* Pods-Freud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freud/Pods-Freud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,16 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				B15399201E03D2AD008DCA65 /* GARD */,
+				B16B69DD1E06B09800E3DF24 /* Demo */,
 				B153990B1E02F305008DCA65 /* Gene.swift */,
 				B153990C1E02F305008DCA65 /* Genome.swift */,
 				B153990D1E02F305008DCA65 /* Population.swift */,
-				B15399291E0533C9008DCA65 /* Art_ColourGene.swift */,
-				B15399311E05422F008DCA65 /* Art_PolygonGene.swift */,
-				B15399351E054C52008DCA65 /* Art_Drawing.swift */,
-				B15399331E0547FC008DCA65 /* Factors.swift */,
-				B153992B1E053A3D008DCA65 /* Art_PointGene.swift */,
-				B153992F1E053EBC008DCA65 /* DiceRoller.swift */,
-				B1D9094C1E05960D00F6E541 /* FitnessCalculator.swift */,
 			);
 			path = "Genetic Algorithm";
 			sourceTree = "<group>";
@@ -176,6 +170,20 @@
 				B15399241E03D2AD008DCA65 /* PopulationRD.swift */,
 			);
 			path = GARD;
+			sourceTree = "<group>";
+		};
+		B16B69DD1E06B09800E3DF24 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B16B69DE1E06B09800E3DF24 /* Art_ColourGene.swift */,
+				B16B69DF1E06B09800E3DF24 /* Art_Drawing.swift */,
+				B16B69E01E06B09800E3DF24 /* Art_PointGene.swift */,
+				B16B69E11E06B09800E3DF24 /* Art_PolygonGene.swift */,
+				B16B69E21E06B09800E3DF24 /* DiceRoller.swift */,
+				B16B69E31E06B09800E3DF24 /* Factors.swift */,
+				B16B69E41E06B09800E3DF24 /* FitnessCalculator.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		B17BA5641DFEC7C500549F7F /* Model */ = {
@@ -353,34 +361,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D9094A1E05698500F6E541 /* BarrageView.swift in Sources */,
+				B16B69E71E06B09800E3DF24 /* Art_PointGene.swift in Sources */,
 				B15399261E03D2AD008DCA65 /* Crossover.swift in Sources */,
 				B1D9094B1E05698500F6E541 /* SocketManager.swift in Sources */,
-				B153992C1E053A3D008DCA65 /* Art_PointGene.swift in Sources */,
 				B17BA5781DFEC7D500549F7F /* ViewController.swift in Sources */,
 				B15399271E03D2AD008DCA65 /* GeneRD.swift in Sources */,
 				B15399251E03D2AD008DCA65 /* Chromosome.swift in Sources */,
 				B15399281E03D2AD008DCA65 /* PopulationRD.swift in Sources */,
 				B10D185D1DB8EA1C00F0F9E4 /* AppDelegate.swift in Sources */,
 				B15399161E02F325008DCA65 /* FFNN.swift in Sources */,
-				B15399301E053EBC008DCA65 /* DiceRoller.swift in Sources */,
+				B16B69EA1E06B09800E3DF24 /* Factors.swift in Sources */,
+				B16B69E51E06B09800E3DF24 /* Art_ColourGene.swift in Sources */,
 				B17BA56D1DFEC7C500549F7F /* Operators.swift in Sources */,
 				B15399151E02F325008DCA65 /* ActivationFunctions.swift in Sources */,
-				B15399341E0547FC008DCA65 /* Factors.swift in Sources */,
 				B153990E1E02F305008DCA65 /* Gene.swift in Sources */,
 				B15399171E02F325008DCA65 /* RNN.swift in Sources */,
-				B15399361E054C52008DCA65 /* Art_Drawing.swift in Sources */,
-				B15399321E05422F008DCA65 /* Art_PolygonGene.swift in Sources */,
-				B1D9094E1E05961D00F6E541 /* FitnessCalculator.swift in Sources */,
+				B16B69E61E06B09800E3DF24 /* Art_Drawing.swift in Sources */,
 				B17BA5701DFEC7C500549F7F /* Vector.swift in Sources */,
+				B16B69EB1E06B09800E3DF24 /* FitnessCalculator.swift in Sources */,
+				B16B69E91E06B09800E3DF24 /* DiceRoller.swift in Sources */,
 				B17BA56E1DFEC7C500549F7F /* Random.swift in Sources */,
 				B153990F1E02F305008DCA65 /* Genome.swift in Sources */,
 				B15399101E02F305008DCA65 /* Population.swift in Sources */,
-				B153992A1E0533C9008DCA65 /* Art_ColourGene.swift in Sources */,
 				B17BA5771DFEC7D500549F7F /* GeneticAlgorithmViewController.swift in Sources */,
 				B1D909461E055F5100F6E541 /* ClassExtensions.swift in Sources */,
 				B17BA5731DFEC7CD00549F7F /* GeneticAlgorithmView.swift in Sources */,
 				B1D909441E055A2A00F6E541 /* ThreadManager.swift in Sources */,
 				B17BA56C1DFEC7C500549F7F /* Matrix.swift in Sources */,
+				B16B69E81E06B09800E3DF24 /* Art_PolygonGene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

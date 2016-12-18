@@ -25,7 +25,7 @@ Freud is based on the project [Swift AI](https://github.com/collinhundley/Swift-
 
 ## Installation & Environment Requirement
 
-> Xcode 8, Swift 3, macOS
+> Xcode 8, Swift 3, macOS, CocoaPods 1.1.0 or later
 
 Just grab the source files you need and drag them into your project directory.
 
@@ -42,6 +42,12 @@ Xcode 7 only supports Swift 2.2, which is completely different from Swift 3, tha
 > Can I compile it on Ubuntu and other Linux distributions? I heard Swift is open source and Apple has made it available on Ubuntu.
 
 Part of this library, yes. For example the Genetic Algorithm (needs some compatibility work though). But Neural Network (FFNN) and Fast Matrix Library won't run on Linux. Because they heavily depends on Apple's [Accelerate Framework](https://developer.apple.com/reference/accelerate) which supports High-Performance Vector Operations.
+
+> My CocoaPods says it's 1.0.0, will it do?
+
+No it won't. If you're using 1.0.0 it will very likely install pods for Swift 2.2, which will sabotage the project. (The Example Project).
+
+Run `pod install` the moment you cloned Freud. And only then are we good to go.
 
 ## Why I Didn't Just Fork Swift-AI Since Freud Is Based On It
 
