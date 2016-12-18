@@ -33,11 +33,14 @@ open class Drawing {
         isDirty = true;
     }
     
-    init() {
+    init(shouldRandom: Bool) {
         polygons = []
-        for _ in 0..<Factors.ActivePolygonsMin {
-            addPolygon()
+        if shouldRandom {
+            for _ in 0..<Factors.ActivePolygonsMin {
+                addPolygon()
+            }
         }
+        
         setDirty()
     }
     
@@ -46,7 +49,11 @@ open class Drawing {
     }
     
     func clone() -> Drawing {
-        return Drawing(polygons: self.polygons)
+        let foo = Drawing(shouldRandom: false)
+        for polygon in self.polygons {
+            foo.polygons.append(polygon.clone())
+        }
+        return foo
     }
     
     func mutate() {
@@ -68,7 +75,7 @@ open class Drawing {
     
     func addPolygon() {
         if numberOfPolygons < Factors.ActivePolygonsMax {
-            let poly = PolygonGene()
+            let poly = PolygonGene(shouldRandom: true)
             let index = Int(Random.bounded(min: 0, max: Double(polygons.count)))
             polygons.insert(poly, at: Int(index))
             setDirty()

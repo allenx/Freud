@@ -40,7 +40,7 @@ class GeneticAlgorithmViewController: UIViewController {
 }
 
 
-//Training the FFNN / RNN
+
 extension GeneticAlgorithmViewController {
     
 }

@@ -17,7 +17,7 @@ class GeneticAlgorithmView: UIView {
     
     var currentDrawing: Drawing! {
         didSet {
-            self.draw(self.bounds)
+            //self.setNeedsDisplay()
         }
     }
     
@@ -25,7 +25,7 @@ class GeneticAlgorithmView: UIView {
     convenience init(currentDrawing: Drawing) {
         self.init()
         self.frame = CGRect(x: 40, y: 40, width: 200, height: 200)
-        self.backgroundColor = .clear
+        self.backgroundColor = .black
         self.currentDrawing = currentDrawing
         
     }
@@ -47,6 +47,7 @@ class GeneticAlgorithmView: UIView {
             aPath.close()
             aPath.fill()
             aPath.stroke()
+            
         }
         
     }

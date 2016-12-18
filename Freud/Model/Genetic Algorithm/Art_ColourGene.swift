@@ -39,11 +39,13 @@ open class ColourGene {
         }
     }
     
-    init() {
-        R = Int(Random.bounded(min: 0, max: 255))
-        G = Int(Random.bounded(min: 0, max: 255))
-        B = Int(Random.bounded(min: 0, max: 255))
-        A = Int(Random.bounded(min: 10, max: 60))
+    init(shouldRandom: Bool) {
+        if shouldRandom {
+            R = Int(Random.bounded(min: 0, max: 255))
+            G = Int(Random.bounded(min: 0, max: 255))
+            B = Int(Random.bounded(min: 0, max: 255))
+            A = Int(Random.bounded(min: 10, max: 60))
+        }
     }
     
     init?(R: Int, G: Int, B: Int, A: Int) {

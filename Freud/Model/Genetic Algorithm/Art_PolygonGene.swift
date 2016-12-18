@@ -20,16 +20,19 @@ open class PolygonGene {
     
     
     
-    init() {
+    init(shouldRandom: Bool) {
         points = []
-        let origin = PointGene(shouldRandom: true)
-        for _ in 0..<Factors.ActivePointsPerPolygonMin {
-            let point = PointGene(shouldRandom: false)
-            point.x = min(max(0, origin.x + Int(Random.bounded(min: -3, max: 3))), PointGene.MaxWidth)
-            point.y = min(max(0, origin.y + Int(Random.bounded(min: -3, max: 3))), PointGene.MaxHeight)
-            points.append(point)
+        if shouldRandom {
+            let origin = PointGene(shouldRandom: true)
+            for _ in 0..<Factors.ActivePointsPerPolygonMin {
+                let point = PointGene(shouldRandom: false)
+                point.x = min(max(0, origin.x + Int(Random.bounded(min: -3, max: 3))), PointGene.MaxWidth)
+                point.y = min(max(0, origin.y + Int(Random.bounded(min: -3, max: 3))), PointGene.MaxHeight)
+                points.append(point)
+            }
         }
-        colour = ColourGene()
+    
+        colour = ColourGene(shouldRandom: true)
     }
     
     init(points: [PointGene], colour: ColourGene) {
@@ -38,7 +41,13 @@ open class PolygonGene {
     }
     
     func clone() -> PolygonGene {
-        return PolygonGene(points: points, colour: colour)
+//        return PolygonGene(points: points, colour: colour)
+        let foo = PolygonGene(shouldRandom: false)
+        for point in self.points {
+            foo.points.append(point.clone())
+        }
+        foo.colour = self.colour.clone()
+        return foo
     }
     
     func mutate(currentDrawing: Drawing) {

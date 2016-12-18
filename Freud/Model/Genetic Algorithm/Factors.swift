@@ -9,7 +9,7 @@
 import Foundation
 
 struct Factors {
-    public static var ActiveAddPointMutationRate = 0.00066667
+    public static var ActiveAddPointMutationRate = 0.00145827
     public static var ActiveAddPolygonMutationRate = 0.00145827
     public static var ActiveAlphaMutationRate = 0.00066667
     public static var ActiveAlphaRangeMax = 60

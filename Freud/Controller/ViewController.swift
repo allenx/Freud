@@ -13,16 +13,15 @@ import GLKit
 class ViewController: UIViewController {
     
     var errorLevel = Double.greatestFiniteMagnitude
-    var currentDrawing = Drawing()
+    var currentDrawing :Drawing!
     var generation = 0
     var GAView: GeneticAlgorithmView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //SocketManager.shared.initHandler()
-
-        var error: Int = 0
+        currentDrawing = Drawing(shouldRandom: true)
         let imageMona = #imageLiteral(resourceName: "MonaLisa")
         for i in 0..<200 {
             for j in 0..<200 {
@@ -32,42 +31,87 @@ class ViewController: UIViewController {
             }
         }
         
-
-
-//        imageView.frame = CGRect(x: 20, y: 20, width: 200, height: 200)
-//        self.view.addSubview(imageView)
+        let imageView = UIImageView(image: imageMona)
+        
+        imageView.frame = CGRect(x: 20, y: 20, width: 200, height: 200)
+        //self.view.addSubview(imageView)
+        
         
         GAView = GeneticAlgorithmView(currentDrawing: currentDrawing)
         self.view.addSubview(GAView)
         
-        while true {
-            evolve()
+        
+        
+        evolveThousands()
+        
+        let btn = UIButton(title: "hello")
+        btn.titleLabel?.textColor = .red
+        self.view.addSubview(btn)
+        btn.snp.makeConstraints {
+            make in
+            make.left.bottom.equalTo(self.view)
         }
-
+        
+        btn.addTarget(self, action: #selector(evolveThousands), for: .touchUpInside)
+        
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    func evolveThousands() {
+        print(generation)
+        print(errorLevel)
+        for i in 0..<1000 {
+            //print(i)
+            evolve()
+        }
+        GAView.currentDrawing = currentDrawing
+    }
+    
+    func showView() {
+        ThreadManager.synchronize(currentDrawing) { 
+            GAView.currentDrawing = currentDrawing
+        }
+        
+    }
+    
     func evolve() {
-
-        let fooDrawing = currentDrawing.clone()
-        fooDrawing.mutate()
-        if fooDrawing.isDirty {
-            GAView.currentDrawing = fooDrawing
-            generation += 1
-            let newErrorLevel = FitnessCalculator.calculateFitnessFor(currentDrawingView: GAView)
-            if newErrorLevel <= errorLevel {
-                ThreadManager.synchronize(currentDrawing) {
-                    currentDrawing = fooDrawing
+        let queue = DispatchQueue(label: "com.allenx.Freud.backEndTraining")
+        queue.async {
+            objc_sync_enter(self.currentDrawing)
+            let fooDrawing = self.currentDrawing.clone()
+            objc_sync_exit(self.currentDrawing)
+            fooDrawing.mutate()
+            if fooDrawing.isDirty {
+                self.generation += 1
+                
+                
+                //            self.GAView.currentDrawing = fooDrawing
+                //            self.GAView.setNeedsDisplay()
+                
+                
+                //let newErrorLevel = FitnessCalculator.calculateFitnessFor(currentDrawingView: self.GAView)
+                let newErrorLevel = FitnessCalculator.calculateSampleFitnessFor(currentDrawing: fooDrawing)
+                //print(newErrorLevel)
+                if newErrorLevel <= self.errorLevel {
+                    objc_sync_enter(self.currentDrawing)
+                    self.currentDrawing = fooDrawing
+                    objc_sync_exit(self.currentDrawing)
+                    self.errorLevel = newErrorLevel
+                    
+                    
                 }
-                errorLevel = newErrorLevel
+                print("\(self.generation), \(self.errorLevel)")
+                
             }
         }
-        print(generation)
+        
+        
         
     }
     
