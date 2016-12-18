@@ -1,6 +1,6 @@
 # Evolution of Mona Lisa
 
-![MonaLisa](http://ogbzxx07e.bkt.clouddn.com/MonaLisa)
+![MonaLisa](http://ogbzxx07e.bkt.clouddn.com/MonaLisa.png)
 
 ### Installation & Requirement
 
