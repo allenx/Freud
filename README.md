@@ -100,7 +100,7 @@ For FFNN Demos, go checkout [Swift AI](https://github.com/collinhundley/Swift-AI
 
 For Genetic Algorithm, inspired by the original idea of [Roger Johansson](https://rogerjohansson.blog/2008/12/07/genetic-programming-evolution-of-mona-lisa/), I've created a fun demo in iOS.
 
-* Approximating images with a bunch of self-evolutionable polygons. (Some work are still undergoing)
+* Approximating images with a bunch of self-evolutionable polygons. (Some work is still undergoing)
 
 ## Using Freud?
 
@@ -110,7 +110,7 @@ If you're using Freud, feel free to let me know and I can put a link of your fab
 
 Feel free to fork and submit pull requests. I love that people from all over the world is making a difference together, even though we don't know each other.
 
-And also, you can contribute to the original project [Swift AI](https://github.com/collinhundley/Swift-AI/tree/master/Examples/iOS), Mr. Collin Hundley has done a tremendous job and I would probably submit pull request to the original project.
+And also, you can contribute to the original project [Swift AI](https://github.com/collinhundley/Swift-AI/tree/master/Examples/iOS). Mr. Collin Hundley has done a tremendous job and I would probably submit pull request to the original project.
 
 ## Contact
 

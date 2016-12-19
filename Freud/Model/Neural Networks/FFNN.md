@@ -1,6 +1,7 @@
 
 # Multi-Layer Feed-Forward Neural Network
 ###### FFNN.swift
+
 The `FFNN` class contains a fully-connected, 3-layer feed-forward neural network.  This neural net uses a standard backpropagation training algorithm (stochastic gradient descent), and is designed for flexibility and use in performance-critical applications.
 
 ## Initialization

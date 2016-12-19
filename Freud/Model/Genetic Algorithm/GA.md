@@ -10,7 +10,7 @@
 
 #### Why I Chose Struct Over Class
 
-> What's struct good about?
+> What's good about struct?
 
 I always believe that, in most cases, we should use Value-Type over Reference-Type. Here class is the Reference-Type and struct is the Value-Type.
 
