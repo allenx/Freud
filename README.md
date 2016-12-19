@@ -114,7 +114,7 @@ And also, you can contribute to the original project [Swift AI](https://github.c
 
 ## Contact
 
-You can call me Allen. I'm a university students from China and I love playing with computers.
+You can call me Allen. I'm a university student from China and I love playing with computers.
 
 [allenx@live.fr](mailto:allenx@live.fr)
 
